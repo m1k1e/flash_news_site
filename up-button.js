@@ -1,5 +1,7 @@
-
+let upButton = document.querySelector('.up-button');
 
 window.onscroll = function () {
-  console.log(window.pageYOffset);
+  if(window.pageYOffset > 200){
+      upButton.classList.add('shown');
+    }
 };
