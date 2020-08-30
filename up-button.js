@@ -5,3 +5,5 @@ window.onscroll = function () {
       upButton.classList.add('shown');
     }
 };
+
+window.scrollTo(0, 0);
